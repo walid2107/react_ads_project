@@ -1,0 +1,196 @@
+.ad-info {
+  background: #f0f0f0;
+  padding: 2% 3%;
+  width: 94%;
+}
+
+.ad-title {
+  background: white;
+  width: 94%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 60px;
+  padding: 20px 3%;
+}
+.ad-title-right p {
+  color: rgb(68, 67, 67);
+  word-spacing: 10px;
+  font-size: 16px;
+}
+.ad-title b {
+  color: black;
+  font-size: 22px;
+}
+
+.add-main {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  margin: 20px auto;
+}
+.ad-data {
+  width: 50%;
+  padding: 20px;
+  background: white;
+}
+
+.slider-container {
+  height: auto;
+  width: 100%;
+  margin: 5px auto;
+  border: 1px solid rgb(211, 209, 209);
+  box-shadow: 0 0 10px gray;
+}
+.slider {
+  height: 380px;
+  position: relative;
+  width: 98%;
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 10px;
+}
+
+.slider-img {
+  height: 380px;
+  width: 100%;
+  padding: 1%;
+}
+.slide-arrow,
+.slide-arrow {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 70px;
+  z-index: 99;
+  cursor: pointer;
+  top: 40%;
+  text-shadow: 0 0 20px rgb(19, 19, 19);
+  transition: all 0.5s ease;
+}
+
+.slide-arrow:hover,
+.slide-arrow:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+.slide-arrow-lzft {
+  float: left;
+  left: 10px;
+}
+.slide-arrow-right {
+  float: right;
+  right: 0;
+}
+.slider-foot {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  padding: 10px;
+  justify-content: space-around;
+  margin: 5px auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: center;
+}
+.img-item {
+  width: 20%;
+  border: 1px solid gray;
+  opacity: 0.8;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.img-item:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px black;
+}
+.img-hover {
+  opacity: 1;
+  transform: scale(1.3);
+  border: 1px solid rgba(11, 109, 189, 0.466);
+}
+.ad-owner {
+  width: 40%;
+}
+.info-card {
+  background: white;
+
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  padding: 20px 5%;
+  height: auto;
+  justify-content: center;
+  margin-top: 30px;
+}
+.info-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: baseline;
+}
+.info-row b {
+  font-size: 18px;
+}
+.info-row p {
+  width: 200px;
+}
+.info-row span {
+  color: rgb(123, 126, 126);
+}
+
+.info-card-user {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  text-align: center;
+  width: 60%;
+  padding: 5px 20%;
+  height: 200px;
+  background: white;
+  font-size: 18px;
+}
+
+.info-card-user button {
+  height: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 5px gray;
+  transition: all 0.2s ease-in;
+}
+
+.info-card-user button i {
+  margin: 0 20px;
+}
+.btn-phone {
+  background: #24bd77;
+}
+.btn-msg {
+  background: #55aae2;
+}
+.btn-phone:hover {
+  background: rgb(23, 151, 94);
+}
+.btn-msg:hover {
+  background: rgb(35, 122, 180);
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.user-img {
+  font-size: 40px;
+  color: rgb(124, 124, 124);
+}

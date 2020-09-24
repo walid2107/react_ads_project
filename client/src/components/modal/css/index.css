@@ -1,0 +1,129 @@
+.form {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(44, 43, 43);
+  margin: 0;
+}
+.form-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-header button {
+  width: 50%;
+  height: 60px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background: #ff820e;
+}
+.form-header .active {
+  background: white;
+  color: rgb(85, 83, 83);
+  font-family: arial;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form-content input[type="text"],
+.form-content input[type="number"],
+.form-content input[type="password"] {
+  height: 30px;
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid #ff820e;
+  outline: none;
+  margin-left: 10px;
+  font-size: 18px;
+  padding-left: 8%;
+}
+.form-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: row nowrap;
+  align-items: center;
+  position: relative;
+  color: rgb(146, 142, 142);
+}
+.form-row i {
+  position: absolute;
+  left: 10px;
+  color: rgb(117, 117, 117);
+  transition: margin 0.2s ease-out;
+}
+.form-row input:focus ~ i {
+  position: absolute;
+  color: white;
+  background: #ff820e;
+  padding: 9px;
+  margin-left: -20px;
+}
+#register {
+  height: 400px;
+}
+
+.login-form {
+  padding: 5% 10%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.form-btn {
+  width: 100%;
+  height: 35px;
+  background: #ff820e;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 2px 5px gray;
+  font-weight: bold;
+}
+.form-btn:hover {
+  opacity: 0.9;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  top: 0;
+  transition: all 0.5s ease;
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-content {
+  max-width: 35%;
+  height: auto;
+  background: white;
+  margin: 40px auto;
+  border-radius: 1%;
+}
+.modal-header {
+  height: 0;
+  width: 100%;
+}
+.modal-header span {
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: rgba(5, 5, 5, 0.5);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.modal-hide {
+  opacity: 0;
+  visibility: hidden;
+}
